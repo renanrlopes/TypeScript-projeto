@@ -17,11 +17,12 @@ body {
 
 /* Container principal */
 .container {
-    background-color: #ffffff;
-    padding: 30px 35px;
-    border-radius: 12px;
-    width: 320px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+  padding: 50px 60px;      
+  border-radius: 18px;     
+  width: 600px;
+  max-width: 95%;
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.2);
 }
 
 /* Título */
@@ -71,6 +72,17 @@ button {
     transition: background 0.3s;
 }
 
+.resultado {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #1f2933;
+}
+
 /* Botão Somar */
 #buttonSomar {
     background-color: #22c55e;
@@ -89,4 +101,9 @@ button {
 
 #buttonSubtrair:hover {
     background-color: #dc2626;
+}
+
+#resultado {
+  color: #4f46e5;
+  font-size: 22px;
 }
